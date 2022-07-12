@@ -5,8 +5,12 @@
     text-decoration: none;
 }
 /* ==============COMPONENTS================ */
-.modal-btn {
+
+body{
     font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+}
+.modal-btn {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -27,7 +31,6 @@
 }
 
 .hero-title {
-    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -42,7 +45,6 @@
 }
 
 .subtitle {
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -53,7 +55,6 @@
 }
 
 .section-discription {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -83,7 +84,6 @@
     color: black;
 }
 .menu-link {
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -95,8 +95,7 @@
 .menu-link:focus{
     color: #2196F3;
 }
-.contact-phone-number{
-    font-family: 'Roboto', sans-serif;
+.contact{
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -104,23 +103,10 @@
     
         color: #757575;
 }
-.contact-imail{
-    font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    
-        color: #757575;
-}
-.contact-imail:hover,
-.contact-imail:focus{
-    color: #2196F3;
-}
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: #2196F3;
-}
+.contact:hover,
+.contact:focus
+{color: #2196F3;}
+
 /*=====================/HEADER================ */
 
 /* ====================HERO==================== */
@@ -129,14 +115,10 @@
     background: #2F303A;
 }
 /* ====================/HERO=============== */
-/* ====================ABOUT=============== */
-
-/* ===================/ABOUT=============== */
 
 /* ============Images============== */
 /* =============/Images========== */
 .command-list-foto{
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -147,23 +129,10 @@
     
         color: #212121;
 }
-.about-list-foto{
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.19;
-        /* identical to box height */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
-    
-        color: #757575;
-}
 .command-list{
     background: #F5F4FA;
 }
 .about-list-foto{
-    font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.19;
@@ -171,10 +140,10 @@
     
         text-align: center;
         letter-spacing: 0.03em;
+        text-align: center;
     
         color: #757575;
 }
-
 /* ==========FOOTER================== */
 .footer{
     background: #2F303A;
@@ -193,19 +162,7 @@
  .logo-part-footer{
     color: #FFFFFF;
 }
-.footer-title{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #FFFFFF;
-}
 .footer-ad{
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -215,9 +172,8 @@
 
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-title:hover,
-.footer-title:focus{
-    color: #2196F3;
+.mail {
+    color: #FFFFFF;
 }
 .footer-ad:hover,
 .footer-ad:focus {
@@ -226,7 +182,6 @@
    
 /* ===========2PAGE=========== */
 .modal-btn-white{
-    font-family: 'Roboto', sans-serif;
         border: none;
         cursor: pointer;
         font-weight: 500;
@@ -234,7 +189,6 @@
         line-height: 1,63;
         /* identical to box height, or 162% */
     
-        text-align: center;
         letter-spacing: 0.03em;
     
         color: #212121;
@@ -244,4 +198,23 @@
 .modal-btn-white:focus{
     color: #FFFFFF;
     background: #2196F3;
+}
+.works{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;}
+.projects{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
 }
